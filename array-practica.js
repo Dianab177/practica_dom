@@ -1,3 +1,4 @@
+
 export let array = [
     {
     "id": 1,
@@ -79,5 +80,6 @@ export let array = [
     "type": "Superhuman (Ghost trains summoner)",
     "gender": "Male",
     }
-    ];
+    ]
+    ;
  - 
