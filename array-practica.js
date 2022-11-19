@@ -1,4 +1,4 @@
-
+/*
 export let array = [
     {
     "id": 1,
@@ -81,5 +81,4 @@ export let array = [
     "gender": "Male",
     }
     ]
-    ;
- - 
+    ; */
