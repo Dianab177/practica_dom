@@ -1,6 +1,11 @@
+table{
+    width: 80vw;
+    text-align: center;
+}
 table,
 td {
     border: 1px solid #333;
+   
 }
 
 thead,
