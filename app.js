@@ -1,12 +1,15 @@
+import { array } from "./array-practica";
 
-//import { array } from "./array-practica";
-
-//let objeto = array;
+let objeto = array;
+objeto.forEach(function (acc, index) {
+  for (let prop in acc) {
+    alert(prop + " is " + acc[prop]);
+  }
+});
 function showTable(params) {
-    let tablaContenidos = document.querySelector('#tablaObject')
+  let tablaContenidos = document.querySelector("#tablaObject");
 
-let tablaHtml = 
- ` <div>
+  let tablaHtml = ` <div>
 <table>
 <thead>
   <tr>
@@ -28,7 +31,7 @@ let tablaHtml =
   </tr>
 </tbody>
 </table>`;
-`</div>`;
-tablaContenidos.innerHTML = tablaHtml;
+  `</div>`;
+  tablaContenidos.innerHTML = tablaHtml;
 }
 showTable();
